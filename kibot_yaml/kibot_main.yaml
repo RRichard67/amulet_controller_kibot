@@ -107,7 +107,7 @@ groups:
     outputs:
       - @CSV_BOM_OUTPUT@
       # - @XLSX_BOM_OUTPUT@
-      - @HTML_IBOM_OUTPUT@
+      # - @HTML_IBOM_OUTPUT@ #RR this does not run currently
       - @HTML_BOM_OUTPUT@
 
   - name: tables
@@ -335,15 +335,15 @@ import:
       DIR: @ASSEMBLY_DIR@
       FILT_PRE_TRANSFORM: @FILT_FIELD_RENAME@
 
-  # Interactive HTML BOM. Needs netlist.
-  - file: kibot_out_html_ibom.yaml
-    definitions:
-      NAME: @HTML_IBOM_OUTPUT@
-      COMMENT: Interactive BOM in HTML format
-      DIR: @ASSEMBLY_DIR@
-      EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
-      TITLE: @BOARD_NAME@ Assembly
-      MPN_FIELD: @MPN_FIELD@
+  # # Interactive HTML BOM. Needs netlist.
+  # - file: kibot_out_html_ibom.yaml
+  #   definitions:
+  #     NAME: @HTML_IBOM_OUTPUT@
+  #     COMMENT: Interactive BOM in HTML format
+  #     DIR: @ASSEMBLY_DIR@
+  #     EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
+  #     TITLE: @BOARD_NAME@ Assembly
+  #     MPN_FIELD: @MPN_FIELD@
 
   # CSV components count report ------------------------------------------------
   - file: kibot_out_csv_report.yaml
