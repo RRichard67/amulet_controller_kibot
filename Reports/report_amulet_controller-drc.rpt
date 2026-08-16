@@ -1,11 +1,7 @@
 ** Drc report for amulet_controller.kicad_pcb **
-** Created on 2025-01-18T22:40:42+0000 **
+** Created on 2026-08-16T23:34:30 **
 
-** Found 33 DRC violations **
-[clearance]: Clearance violation (board minimum clearance 0.2000 mm; actual 0.0379 mm)
-    ; error
-    @(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)
-    @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
+** Found 66 DRC violations **
 [courtyards_overlap]: Courtyards overlap
     ; error
     @(170.8504 mm, 87.9001 mm): Footprint U10
@@ -20,10 +16,6 @@
     @(143.6504 mm, 61.2501 mm): Footprint D25
 [courtyards_overlap]: Courtyards overlap
     ; error
-    @(147.9 mm, 117.35 mm): Footprint C130
-    @(148.5004 mm, 122.0001 mm): Footprint H1
-[courtyards_overlap]: Courtyards overlap
-    ; error
     @(171.650401 mm, 90.100103 mm): Footprint C108
     @(172.6404 mm, 96.4501 mm): Footprint J6
 [courtyards_overlap]: Courtyards overlap
@@ -34,90 +26,220 @@
     ; error
     @(172.6404 mm, 96.4501 mm): Footprint J6
     @(166.1754 mm, 107.6751 mm): Footprint J14
-[courtyards_overlap]: Courtyards overlap
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Power - Generation/FB_12V and +12V)
     ; error
-    @(167.6 mm, 65.5 mm): Footprint D2
-    @(153.1504 mm, 64.7501 mm): Footprint J1
-[courtyards_overlap]: Courtyards overlap
+    @(154.1504 mm, 97.7251 mm): Pad 1 [/Project Architecture/Power - Generation/FB_12V] of NT2 on L1 (Sig, PWR)
+    @(154.008979 mm, 97.866521 mm): Track [+12V] on L1 (Sig, PWR), length 0.8270 mm
+[clearance]: Clearance violation (board minimum clearance 0.2000 mm; actual 0.0182 mm)
     ; error
-    @(143.8504 mm, 64.7501 mm): Footprint J2
-    @(129.4 mm, 65.5 mm): Footprint D1
-[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.25 mm; actual 0.249999 mm)
+    @(157.7504 mm, 84.015 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A] of NT5 on L1 (Sig, PWR)
+    @(157.975399 mm, 84.24 mm): Track [/Project Architecture/Motor Control - Top Level/SA_P] on L1 (Sig, PWR), length 0.5500 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SB_P and /Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B)
     ; error
-    @(132.3003 mm, 58.2043 mm): Arc on Edge.Cuts
-    @(133.5004 mm, 58.7501 mm): PTH pad MP2 [CHASSIS] of J2
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(165.802015 mm, 98.344758 mm): Footprint C124
-[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'.
-    ; warning
-    @(156.7504 mm, 54.1001 mm): Footprint J12
-[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'.
-    ; warning
-    @(149.1 mm, 117.35 mm): Footprint R52
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(166.620577 mm, 95.251212 mm): Footprint C120
-[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'.
-    ; warning
-    @(140.2504 mm, 54.1001 mm): Footprint J13
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(167.243984 mm, 92.943938 mm): Footprint C118
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(129.866333 mm, 92.694503 mm): Footprint C123
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(167.451041 mm, 92.1712 mm): Footprint C116
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(130.493965 mm, 95.036872 mm): Footprint C121
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(130.701025 mm, 95.809613 mm): Footprint C119
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(166.413521 mm, 96.023949 mm): Footprint C122
-[lib_footprint_mismatch]: Footprint 'SOT1176D' does not match copy in library '0_package_DFN_QFN'.
-    ; warning
-    @(128.472459 mm, 95.992643 mm): Footprint D17
-[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
-    ; warning
-    @(131.320291 mm, 98.127833 mm): Footprint C117
-[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'.
-    ; warning
-    @(173.33 mm, 69.8 mm): Footprint R54
-[lib_footprint_mismatch]: Footprint 'SOP-14_4.4x5mm_P0.65mm_H1.2mm' does not match copy in library '0_package_SO'.
-    ; warning
-    @(166.253518 mm, 100.25 mm): Footprint U8
-[lib_footprint_mismatch]: Footprint 'DIOM4336X24N' does not match copy in library '0_diode_smd'.
-    ; warning
-    @(129.4 mm, 65.5 mm): Footprint D1
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning
+    @(151.8996 mm, 84.0399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_P] of NT8 on L1 (Sig, PWR)
+    @(152.1 mm, 83.8395 mm): Track [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B] on L1 (Sig, PWR), length 0.0834 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SC_P and /Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C)
+    ; error
+    @(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)
+    @(129.76 mm, 83.09 mm): Track [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] on L1 (Sig, PWR), length 0.7500 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Power - Generation/VOS_3V3 and +3V3)
+    ; error
+    @(135.59 mm, 93.9 mm): Pad 1 [/Project Architecture/Power - Generation/VOS_3V3] of NT3 on L6 (Sig, PWR)
+    @(135.39 mm, 93.9 mm): Track [+3V3] on L6 (Sig, PWR), length 0.5400 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SHB and /Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB)
+    ; error
+    @(143.1504 mm, 76.8251 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SHB] of NT7 on L1 (Sig, PWR)
+    @(143.486186 mm, 76.8251 mm): Track [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB] on L1 (Sig, PWR), length 0.2405 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SC_N and GND)
+    ; error
+    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
+    @(129.76 mm, 85.79 mm): Track [GND] on L1 (Sig, PWR), length 0.7500 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SA_N and GND)
+    ; error
+    @(157.7504 mm, 84.865 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SA_N] of NT6 on L1 (Sig, PWR)
+    @(157.5754 mm, 85.04 mm): Track [GND] on L1 (Sig, PWR), length 0.0475 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SB_N and GND)
+    ; error
+    @(151.8996 mm, 84.8399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_N] of NT9 on L1 (Sig, PWR)
+    @(152.1 mm, 85.79 mm): Track [GND] on L1 (Sig, PWR), length 0.7497 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SC_N and GND)
+    ; error
+    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
+    @(129.76 mm, 85.040001 mm): Track [GND] on L1 (Sig, PWR), length 0.0828 mm
+[clearance]: Clearance violation (board minimum clearance 0.2000 mm; actual 0.0379 mm)
+    ; error
     @(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)
     @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(163.3004 mm, 109.4001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(176.9504 mm, 77.2501 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(119.045 mm, 80.025 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+    @(117.4504 mm, 77.5901 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(178.3104 mm, 78.1301 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+    @(172.7254 mm, 86.0251 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(170.4504 mm, 75.1501 mm): Zone [GND] on L3 (Sig, PWR) and L4 (Sig, PWR), priority 99
+    @(116.0504 mm, 75.1501 mm): Zone [GND] on L4 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(169.5204 mm, 75.1401 mm): Zone [GND] on L3 (Sig, PWR), priority 99
+    @(170.4504 mm, 75.1501 mm): Zone [GND] on L3 (Sig, PWR) and L4 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(116.8504 mm, 89.3651 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(125.9004 mm, 99.6001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(125.9004 mm, 99.6001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(125.7004 mm, 102.2001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(137.0004 mm, 106.5201 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(163.3004 mm, 109.4001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(156.2254 mm, 112.2001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(119.587588 mm, 76.07856 mm): PTH pad 1 [CHASSIS] of H2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(122.866049 mm, 75.200099 mm): PTH pad 1 [CHASSIS] of H2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(121.987588 mm, 71.921638 mm): PTH pad 1 [CHASSIS] of H2
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(150.197456 mm, 123.697156 mm): PTH pad 1 [CHASSIS] of H1
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(150.197456 mm, 120.303044 mm): PTH pad 1 [CHASSIS] of H1
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(146.803344 mm, 123.697156 mm): PTH pad 1 [CHASSIS] of H1
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(146.803344 mm, 120.303044 mm): PTH pad 1 [CHASSIS] of H1
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(175.013211 mm, 71.921639 mm): PTH pad 1 [CHASSIS] of H3
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(174.13475 mm, 75.2001 mm): PTH pad 1 [CHASSIS] of H3
+[annular_width]: Annular width (rule 'Pad Size' min annular width 0.1500 mm; actual 0.1466 mm)
+    ; error
+    @(177.413211 mm, 76.078561 mm): PTH pad 1 [CHASSIS] of H3
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
-    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
-    @(129.76 mm, 85.79 mm): Pad 1 [GND] of R18 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
-    ; warning
-    @(136.130445 mm, 93.156811 mm): Polygon on F.Mask
+    @(136.130445 mm, 93.156811 mm): Polygon of G*** on F.Mask
     @(136.0504 mm, 93.9001 mm): Via [/Project Architecture/Power - Generation/VOS_3V3] on L1 (Sig, PWR) - L6 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
     ; warning
-    @(157.7504 mm, 84.865 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SA_N] of NT6 on L1 (Sig, PWR)
-    @(157.5754 mm, 85.79 mm): Pad 1 [GND] of R12 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    @(165.802015 mm, 98.344758 mm): Footprint C124
+[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'
     ; warning
-    @(151.8996 mm, 84.0399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_P] of NT8 on L1 (Sig, PWR)
-    @(152.1 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B] of R15 on L1 (Sig, PWR)
-[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    @(156.7504 mm, 54.1001 mm): Footprint J12
+[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'
     ; warning
-    @(151.8996 mm, 84.8399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_N] of NT9 on L1 (Sig, PWR)
-    @(152.1 mm, 85.79 mm): Pad 1 [GND] of R15 on L1 (Sig, PWR)
+    @(149.1 mm, 117.35 mm): Footprint R52
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(166.620577 mm, 95.251212 mm): Footprint C120
+[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'
+    ; warning
+    @(140.2504 mm, 54.1001 mm): Footprint J13
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(167.243984 mm, 92.943938 mm): Footprint C118
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(129.866333 mm, 92.694503 mm): Footprint C123
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(167.451041 mm, 92.1712 mm): Footprint C116
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(130.493965 mm, 95.036872 mm): Footprint C121
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(130.701025 mm, 95.809613 mm): Footprint C119
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(166.413521 mm, 96.023949 mm): Footprint C122
+[lib_footprint_mismatch]: Footprint 'SOT1176D' does not match copy in library '0_package_DFN_QFN'
+    ; warning
+    @(128.472459 mm, 95.992643 mm): Footprint D17
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'
+    ; warning
+    @(131.320291 mm, 98.127833 mm): Footprint C117
+[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'
+    ; warning
+    @(173.33 mm, 69.8 mm): Footprint R54
+[lib_footprint_mismatch]: Footprint 'SOP-14_4.4x5mm_P0.65mm_H1.2mm' does not match copy in library '0_package_SO'
+    ; warning
+    @(166.253518 mm, 100.25 mm): Footprint U8
+[lib_footprint_mismatch]: Footprint 'DIOM4336X24N' does not match copy in library '0_diode_smd'
+    ; warning
+    @(129.4 mm, 65.5 mm): Footprint D1
 
 ** Found 0 unconnected pads **
 
