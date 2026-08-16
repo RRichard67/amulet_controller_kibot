@@ -240,16 +240,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "${REVISION}"
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -440,10 +452,18 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -456,9 +476,16 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -470,7 +497,7 @@
   },
   "meta": {
     "filename": "amulet_controller.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -485,8 +512,10 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
@@ -502,8 +531,10 @@
         "microvia_drill": 0.1,
         "name": "CAN Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
@@ -519,8 +550,10 @@
         "microvia_drill": 0.1,
         "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -536,8 +569,10 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -553,8 +588,10 @@
         "microvia_drill": 0.1,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
         "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 24
@@ -570,8 +607,10 @@
         "microvia_drill": 0.1,
         "name": "Kelvin Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
@@ -587,8 +626,10 @@
         "microvia_drill": 0.1,
         "name": "Power 12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 171)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -604,8 +645,10 @@
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -621,8 +664,10 @@
         "microvia_drill": 0.1,
         "name": "Power 5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -638,8 +683,10 @@
         "microvia_drill": 0.1,
         "name": "Power A3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
         "schematic_color": "rgb(162, 155, 0)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
@@ -655,15 +702,17 @@
         "microvia_drill": 0.1,
         "name": "RS422 Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.25,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 3
+      "version": 5
     },
     "net_colors": {
       "+12V": "rgb(255, 0, 134)",
@@ -821,13 +870,27 @@
       "GND": "rgb(74, 90, 126)"
     },
     "netclass_assignments": {
-      "+VBAT": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B": "High Power",
-      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C": "High Power"
+      "+VBAT": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B": [
+        "High Power"
+      ],
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C": [
+        "High Power"
+      ]
     },
     "netclass_patterns": [
       {
@@ -1004,6 +1067,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "Manufacturing/Assembly/amulet_controller-bom-k8.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1100,9 +1167,75 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Footprint"
+    },
+    "bus_aliases": {
+      "AUX1": [
+        "AUX1_A",
+        "AUX1_B",
+        "AUX1_C",
+        "AUX1_D",
+        "AUX1_E",
+        "AUX1_I2C_PULLUP",
+        "POS_SENSOR_CS"
+      ],
+      "AUX2": [
+        "AUX2_A",
+        "AUX2_B",
+        "AUX2_C",
+        "AUX2_D",
+        "AUX2_I2C_PULLUP"
+      ],
+      "CURRENT_SENSE": [
+        "SOA",
+        "SOB",
+        "SOC"
+      ],
+      "DRV_SPI": [
+        "DRV_SCLK",
+        "DRV_MISO",
+        "DRV_MOSI",
+        "DRV_CS"
+      ],
+      "FDCAN": [
+        "FDCAN_P",
+        "FDCAN_N"
+      ],
+      "FDCAN_TTL": [
+        "FDCAN_RX",
+        "FDCAN_TX"
+      ],
+      "LED": [
+        "LED_DBG",
+        "LED_PWR"
+      ],
+      "PWM_PHASE": [
+        "PWM_PHASEA",
+        "PWM_PHASEB",
+        "PWM_PHASEC"
+      ],
+      "RS422": [
+        "RS422_R+",
+        "RS422_R-",
+        "RS422_D-",
+        "RS422_D+"
+      ],
+      "RS422_TTL": [
+        "RS422_~{RE}",
+        "RS422_DE"
+      ],
+      "SENSE_TEMP": [
+        "SENSE_TEMP_MOT",
+        "SENSE_TEMP_FET"
+      ],
+      "SWD": [
+        "SWCLK",
+        "SWDIO",
+        "NRST"
+      ]
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1111,6 +1244,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1134,6 +1268,7 @@
     "net_format_name": "KiCad",
     "page_layout_descr_file": "Templates/KDT_Template_GIT.kicad_wks",
     "plot_directory": "Schematic/",
+    "reuse_designators": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -1141,12 +1276,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "amulet_controller.kicad_sch",
+        "name": "amulet_controller",
+        "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "0650c7a8-acba-429c-9f8e-eec0baf0bc1c",
-      "Root"
+      "amulet_controller"
     ],
     [
       "de68a101-7eef-4ba8-abb4-14d03adb087f",
@@ -1231,14 +1375,14 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)\tDO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)\tCONFORMAL COATING IS NOT REQUIRED.\n\n5)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
-    "BOARD_NAME": "\u039bmulet Motion Controller",
+    "BOARD_NAME": "Λmulet Motion Controller",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY EPFL XPLORE RESEARCH.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t69.666 \u00d7 76.700 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t0.700 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY EPFL XPLORE RESEARCH.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t69.666 × 76.700 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t0.700 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "e6e10e6",
     "GIT_HASH_SCH": "386a12d",
     "GIT_URL": "https://github.com/nguyen-v/amulet_controller_kibot",
-    "PROJECT_NAME": "Chienpanz\u00e9",
+    "PROJECT_NAME": "Chienpanzé",
     "RELEASE_BODY_1.0.0": "___________________________________\n\nAdded\n\n-   TVS protection and termination switch to FD-CAN.\n\n-   Low-side switched 12V 600 mA source for external fan.\n\n-   LDO for analog supply.\n\n-   One TVS diode per power connector.\n\n-   Second on-board I2C magnetic encoder for disambiguation.\n\n-   ESD protection to all interfaces.\n\n-   Over-voltage protection on thermistor ADC inputs.\n\n-   Pi filters to inputs of buck regulators and MCU analog supply.\n\n-   Decoupling caps next to power pins of connectors.\n\n___________________________________\n\nChanged\n\n-   CPH-CPL capacitor to 47 nF (gate driver).\n\n-   FD-CAN transceiver IC.\n\n-   FETs for top cooled variant.\n\n-   Input power TVS diode to bidirectional.\n\n-   Moved SOx low-pass filter to MCU section.\n\n-   PWM_PHASEA with PWM_PHASEC on STM32G474 pinout for easier routing.\n\n-   RS422 pinout on connector.\n\n-   Buck regulators to optimize for low noise.",
     "RELEASE_BODY_1.0.1": "___________________________________\n\nAdded\n\n-   Controller target specifications.\n\n-   Credits to moteus on cover page.\n\n-   Optional RC-Snubber to power stage.\n\n___________________________________\n\nFixed\n\n-   Chassis guard ring to go around the board.\n\n-   CAN and power TVS diodes now go to chassis.\n\n-   Clearance between nets to respect IEC60664-1 where possible.\n\n-   Comment on precharge.\n\n-   Power TVS diode reference designator from \"U\" to \"D\".\n\n___________________________________\n\nChanged\n\n-   5V 300 mA buck converter with 600 mA version.\n\n-   Chassis-GND capacitor by 1nF 1kV.",
     "RELEASE_BODY_1.0.2": "___________________________________\n\nChanged\n\n-   Power sequencing graph according to experimental data.",
@@ -1295,5 +1439,11 @@
     "SHEET_NAME_8": "Motor Control - Top Level",
     "SHEET_NAME_9": "Motor Control - Inverter",
     "VARIANT": "CHECKED"
+  },
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
   }
 }
