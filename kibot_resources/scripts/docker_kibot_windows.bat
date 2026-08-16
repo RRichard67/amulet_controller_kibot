@@ -14,4 +14,4 @@ docker run --rm -it ^
     --volume=C:\Users\%USER_NAME%:/home/%USER_NAME%:rw ^
     --volume=/tmp/.X11-unix:/tmp/.X11-unix ^
     --entrypoint /bin/bash ^
-    ghcr.io/inti-cmnb/kicad8_auto_full:dev
+    ghcr.io/inti-cmnb/kicad10_auto_full:dev
