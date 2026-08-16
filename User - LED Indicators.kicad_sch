@@ -2169,10 +2169,6 @@
 					(reference "Q7")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-					(reference "Q7")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2301,10 +2297,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
 					(reference "R22")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2528,10 +2520,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
 					(reference "Q8")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2879,10 +2867,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
 					(reference "R21")
 					(unit 1)
@@ -3233,10 +3217,6 @@
 					(reference "R25")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3366,10 +3346,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
-					(reference "R18")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
 					(reference "R24")
 					(unit 1)
@@ -3636,10 +3612,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
 					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
 					(unit 1)
 				)
 			)

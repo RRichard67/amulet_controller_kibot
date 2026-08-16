@@ -18667,10 +18667,6 @@
 					(reference "TP39")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -19759,14 +19755,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#FLG07")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "#FLG08")
 					(unit 1)
@@ -19852,10 +19840,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP56")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -20381,10 +20365,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-					(reference "R28")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "R7")
 					(unit 1)
@@ -20470,10 +20450,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP46")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -20953,10 +20929,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP53")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -21554,10 +21526,6 @@
 					(reference "TP58")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21638,14 +21606,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#FLG07")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "#FLG02")
 					(unit 1)
@@ -22079,10 +22039,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP52")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -23043,10 +22999,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP55")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -24054,10 +24006,6 @@
 					(reference "TP51")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -24139,10 +24087,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP57")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -24358,10 +24302,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP54")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -24841,10 +24781,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP40")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -25458,10 +25394,6 @@
 					(reference "TP47")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -25677,10 +25609,6 @@
 					(reference "TP43")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -25762,10 +25690,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP49")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -26353,10 +26277,6 @@
 					(reference "TP50")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -26837,10 +26757,6 @@
 					(reference "TP44")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -27269,14 +27185,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(reference "#FLG01")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#FLG07")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "#FLG03")
 					(unit 1)
@@ -28263,10 +28171,6 @@
 					(reference "TP45")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -28348,10 +28252,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP48")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -29789,10 +29689,6 @@
 					(reference "TP41")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -30138,10 +30034,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
 					(reference "TP42")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

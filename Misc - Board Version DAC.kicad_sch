@@ -1103,14 +1103,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
-					(reference "#PWR06")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
 					(reference "#PWR037")
 					(unit 1)

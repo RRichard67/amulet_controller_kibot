@@ -6131,14 +6131,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R58")
 					(unit 1)
@@ -6272,14 +6264,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D9")
 					(unit 1)
@@ -6496,14 +6480,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D7")
 					(unit 1)
@@ -6732,10 +6708,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C137")
 					(unit 1)
@@ -8033,10 +8005,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C133")
 					(unit 1)
@@ -8334,14 +8302,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D4")
 					(unit 1)
@@ -8485,10 +8445,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C136")
 					(unit 1)
@@ -8883,14 +8839,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D10")
 					(unit 1)
@@ -9535,14 +9483,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R60")
 					(unit 1)
@@ -9674,14 +9614,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D8")
 					(unit 1)
@@ -10172,10 +10104,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C135")
 					(unit 1)
@@ -10472,14 +10400,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R57")
 					(unit 1)
@@ -10623,10 +10543,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C134")
 					(unit 1)
@@ -11021,14 +10937,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R59")
 					(unit 1)
@@ -11257,10 +11165,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
-					(reference "C8")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "C138")
 					(unit 1)
@@ -11610,14 +11514,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D3")
 					(unit 1)
@@ -11761,14 +11657,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R56")
 					(unit 1)
@@ -11912,14 +11800,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "R55")
 					(unit 1)
@@ -12315,14 +12195,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D11")
 					(unit 1)
@@ -12454,14 +12326,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D5")
 					(unit 1)
@@ -12595,14 +12459,6 @@
 		)
 		(instances
 			(project "amulet_controller"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
-					(reference "D12")
-					(unit 1)
-				)
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
 					(reference "D6")
 					(unit 1)

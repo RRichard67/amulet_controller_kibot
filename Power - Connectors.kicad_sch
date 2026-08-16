@@ -7668,10 +7668,6 @@
 					(reference "#PWR097")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-					(reference "#PWR091")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7755,10 +7751,6 @@
 					(reference "#PWR096")
 					(unit 1)
 				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-					(reference "#PWR091")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7840,10 +7832,6 @@
 			(project "amulet_controller"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
 					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
