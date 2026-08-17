@@ -1,5 +1,5 @@
 ** Drc report for amulet_controller.kicad_pcb **
-** Created on 2026-08-17T09:15:18 **
+** Created on 2026-08-17T10:37:36 **
 
 ** Found 66 DRC violations **
 [courtyards_overlap]: Courtyards overlap
@@ -50,14 +50,14 @@
     ; error
     @(143.1504 mm, 76.8251 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SHB] of NT7 on L1 (Sig, PWR)
     @(143.486186 mm, 76.8251 mm): Track [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB] on L1 (Sig, PWR), length 0.2405 mm
-[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SC_N and GND)
-    ; error
-    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
-    @(129.76 mm, 85.79 mm): Track [GND] on L1 (Sig, PWR), length 0.7500 mm
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SA_N and GND)
     ; error
     @(157.7504 mm, 84.865 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SA_N] of NT6 on L1 (Sig, PWR)
     @(157.5754 mm, 85.04 mm): Track [GND] on L1 (Sig, PWR), length 0.0475 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SC_N and GND)
+    ; error
+    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
+    @(129.76 mm, 85.79 mm): Track [GND] on L1 (Sig, PWR), length 0.7500 mm
 [shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Control - Top Level/SB_N and GND)
     ; error
     @(151.8996 mm, 84.8399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_N] of NT9 on L1 (Sig, PWR)
@@ -72,16 +72,12 @@
     @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
-    @(169.5204 mm, 75.1401 mm): Zone [GND] on L3 (Sig, PWR), priority 99
-    @(170.4504 mm, 75.1501 mm): Zone [GND] on L3 (Sig, PWR) and L4 (Sig, PWR), priority 99
+    @(137.0004 mm, 106.5201 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(119.045 mm, 80.025 mm): Zone [GND] on L6 (Sig, PWR), priority 99
     @(117.4504 mm, 77.5901 mm): Zone [GND] on L6 (Sig, PWR), priority 99
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
-    @(178.3104 mm, 78.1301 mm): Zone [GND] on L6 (Sig, PWR), priority 99
-    @(172.7254 mm, 86.0251 mm): Zone [GND] on L6 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
@@ -90,6 +86,10 @@
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(178.3104 mm, 78.1301 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+    @(172.7254 mm, 86.0251 mm): Zone [GND] on L6 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
@@ -120,12 +120,8 @@
     @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(169.5204 mm, 75.1401 mm): Zone [GND] on L3 (Sig, PWR), priority 99
+    @(170.4504 mm, 75.1501 mm): Zone [GND] on L3 (Sig, PWR) and L4 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
@@ -134,10 +130,18 @@
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(116.8504 mm, 89.3651 mm): Zone [GND] on L1 (Sig, PWR), priority 99
     @(125.9004 mm, 99.6001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
@@ -145,10 +149,6 @@
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(125.7004 mm, 102.2001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
-    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
-    @(137.0004 mm, 106.5201 mm): Zone [GND] on L1 (Sig, PWR), priority 99
     @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error

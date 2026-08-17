@@ -1,4 +1,4 @@
 _local_|2026-08-17|root|Local changes not committed|False|True
+1ce3535|2026-08-17|RobinLRichard|Repoint SW1 footprint to unit 1 to fix iBOM crash|False|True
+9a2a221|2026-08-17|RobinLRichard|Fix duplicate schematic-file UUID, re-enable iBOM and XLSX BOM|True|True
 c3bf46d|2026-08-17|RobinLRichard|Added myenergi in PCB|False|True
-4dc9775|2026-08-17|RobinLRichard|See if changing parameters work|False|True
-9dd5b88|2026-08-16|RRichard67|opened PCB|True|True
