@@ -1,5 +1,5 @@
 ** Drc report for amulet_controller.kicad_pcb **
-** Created on 2026-08-17T10:37:36 **
+** Created on 2026-08-17T11:32:38 **
 
 ** Found 66 DRC violations **
 [courtyards_overlap]: Courtyards overlap
@@ -72,24 +72,16 @@
     @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
-    @(137.0004 mm, 106.5201 mm): Zone [GND] on L1 (Sig, PWR), priority 99
-    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
     @(119.045 mm, 80.025 mm): Zone [GND] on L6 (Sig, PWR), priority 99
     @(117.4504 mm, 77.5901 mm): Zone [GND] on L6 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
     @(178.3104 mm, 78.1301 mm): Zone [GND] on L6 (Sig, PWR), priority 99
     @(172.7254 mm, 86.0251 mm): Zone [GND] on L6 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
@@ -116,15 +108,15 @@
     @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
     @(169.5204 mm, 75.1401 mm): Zone [GND] on L3 (Sig, PWR), priority 99
     @(170.4504 mm, 75.1501 mm): Zone [GND] on L3 (Sig, PWR) and L4 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
@@ -134,6 +126,10 @@
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(116.8504 mm, 89.3651 mm): Zone [GND] on L1 (Sig, PWR), priority 99
@@ -149,6 +145,10 @@
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(125.7004 mm, 102.2001 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+    @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(137.0004 mm, 106.5201 mm): Zone [GND] on L1 (Sig, PWR), priority 99
     @(128.9554 mm, 104.2851 mm): Zone [GND] on L1 (Sig, PWR), priority 99
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
