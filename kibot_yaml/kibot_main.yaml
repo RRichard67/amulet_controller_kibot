@@ -106,7 +106,7 @@ groups:
   - name: bom
     outputs:
       - @CSV_BOM_OUTPUT@
-      - @XLSX_BOM_OUTPUT@
+      # - @XLSX_BOM_OUTPUT@ # Needs KiCost API keys, local-only via kibot_launch.sh --costs, not part of CI
       - @HTML_IBOM_OUTPUT@
       - @HTML_BOM_OUTPUT@
 
