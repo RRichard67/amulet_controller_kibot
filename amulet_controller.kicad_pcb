@@ -82559,7 +82559,7 @@
 			)
 		)
 		(property ki_fp_filters "SW*DPDT*")
-		(path "/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15/c0e04eef-50ce-4144-a2fb-59d9bacbb3e6")
+		(path "/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15/ad6d69cd-8ef1-4688-8a47-f29cf19e480c")
 		(sheetname "/Project Architecture/Interface - Interconnects/")
 		(sheetfile "Interface - Interconnects.kicad_sch")
 		(units
