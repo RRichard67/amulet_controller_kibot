@@ -1,5 +1,5 @@
 ** Drc report for amulet_controller.kicad_pcb **
-** Created on 2026-08-17T08:15:19 **
+** Created on 2026-08-17T09:15:18 **
 
 ** Found 66 DRC violations **
 [courtyards_overlap]: Courtyards overlap
@@ -89,6 +89,10 @@
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    ; error
+    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
@@ -126,10 +130,6 @@
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
     @(172.498237 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
-    ; error
-    @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
-    @(124.501763 mm, 67.042061 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
 [zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
     ; error
     @(183.024691 mm, 86.661778 mm): Zone [CHASSIS] on L1 (Sig, PWR), L6 (Sig, PWR) and 4 more, priority 100
