@@ -107,7 +107,7 @@ groups:
     outputs:
       - @CSV_BOM_OUTPUT@
       # - @XLSX_BOM_OUTPUT@ # Needs KiCost API keys, local-only via kibot_launch.sh --costs, not part of CI
-      - @HTML_IBOM_OUTPUT@
+      # - @HTML_IBOM_OUTPUT@ # Blocked on upstream KiBot bug: PCB-only footprints (MB*/kibuzzard-*) crash save_netlist (KiBot#955)
       - @HTML_BOM_OUTPUT@
 
   - name: tables
@@ -162,7 +162,7 @@ import:
     definitions:
       NAME: @FILT_TP_EXCLUDE@
       COMMENT: Exclude only testpoints
-    
+
   - file: kibot_filt_testpoints.yaml
     definitions:
       NAME: @FILT_TP_TOP_ONLY@
@@ -335,15 +335,19 @@ import:
       DIR: @ASSEMBLY_DIR@
       FILT_PRE_TRANSFORM: @FILT_FIELD_RENAME@
 
-  # Interactive HTML BOM. Needs netlist.
-  - file: kibot_out_html_ibom.yaml
-    definitions:
-      NAME: @HTML_IBOM_OUTPUT@
-      COMMENT: Interactive BOM in HTML format
-      DIR: @ASSEMBLY_DIR@
-      EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
-      TITLE: @BOARD_NAME@ Assembly
-      MPN_FIELD: @MPN_FIELD@
+  # # Interactive HTML BOM. Needs netlist.
+  # # Blocked: upstream KiBot bug (INTI-CMNB/KiBot#955) crashes on PCB-only footprints
+  # # (MB*/kibuzzard-* markers with no schematic component) inside save_netlist_components.
+  # # exclude_filter/hide_excluded do NOT help - out_ibom's variant-processing path passes
+  # # the full, unfiltered board footprint list into save_netlist regardless of filters.
+  # - file: kibot_out_html_ibom.yaml
+  #   definitions:
+  #     NAME: @HTML_IBOM_OUTPUT@
+  #     COMMENT: Interactive BOM in HTML format
+  #     DIR: @ASSEMBLY_DIR@
+  #     EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
+  #     TITLE: @BOARD_NAME@ Assembly
+  #     MPN_FIELD: @MPN_FIELD@
 
   # CSV components count report ------------------------------------------------
   - file: kibot_out_csv_report.yaml
