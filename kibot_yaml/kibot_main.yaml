@@ -85,7 +85,7 @@ groups:
       - tables
       - @GERBER_OUTPUT@
       - @EXCELLON_DRILL_OUTPUT@
-      # - @DXF_DRILL_MAP_OUTPUT@
+      - @DXF_DRILL_MAP_OUTPUT@
       - @PDF_DRILL_MAP_OUTPUT@
       - @PDF_FABRICATION_OUTPUT@
       - @ZIP_COMPRESS_FAB_OUTPUT@
@@ -106,7 +106,7 @@ groups:
   - name: bom
     outputs:
       - @CSV_BOM_OUTPUT@
-      # - @XLSX_BOM_OUTPUT@ # Needs KiCost API keys, local-only via kibot_launch.sh --costs, not part of CI
+      - @XLSX_BOM_OUTPUT@
       # - @HTML_IBOM_OUTPUT@ # Blocked on upstream KiBot bug: PCB-only footprints (MB*/kibuzzard-*) crash save_netlist (KiBot#955)
       - @HTML_BOM_OUTPUT@
 
@@ -258,14 +258,14 @@ import:
       MAP_FORMAT: pdf
 
   # Drill Map (DXF)
-  # - file: kibot_out_excellon_drill.yaml
-  #   definitions:
-  #     NAME: @DXF_DRILL_MAP_OUTPUT@
-  #     COMMENT: Drill Map in DXF format
-  #     DIR: @GERBERS_DIR@
-  #     GENERATE_DRILL: false
-  #     PTH_NPTH: @GROUP_PTH_NPTH_DRL@
-  #     MAP_FORMAT: dxf
+  - file: kibot_out_excellon_drill.yaml
+    definitions:
+      NAME: @DXF_DRILL_MAP_OUTPUT@
+      COMMENT: Drill Map in DXF format
+      DIR: @GERBERS_DIR@
+      GENERATE_DRILL: false
+      PTH_NPTH: @GROUP_PTH_NPTH_DRL@
+      MAP_FORMAT: dxf
 
   # Drill Table (CSV)
   - file: kibot_out_csv_drill_table.yaml

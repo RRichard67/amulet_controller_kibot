@@ -16,20 +16,22 @@ outputs:
       - _value_split
       - @FILT_PRE_TRANSFORM@
     count_smd_tht: true
-    distributors:
-        - Mouser
-        - Digi-Key
-        - TME
-        # - Arrow
-        # - Farnell
+    # KiCost (distributor pricing/specs) needs API keys in an untracked kicost_config_local.yaml
+    # and is meant to run locally only via `kibot_launch.sh --costs`, not in CI. This plain XLSX
+    # BOM output has it disabled so it works without any credentials.
+    # distributors:
+    #     - Mouser
+    #     - Digi-Key
+    #     - TME
+    #     # - Arrow
+    #     # - Farnell
     xlsx:
       title: 'Bill of Materials'
       datasheet_as_link: 'Datasheet'
       logo: false
       style: modern-blue
-      kicost: true
-      kicost_config: '@KICOST_CONFIG@'
-      specs: true
+      kicost: false
+      specs: false
 
     columns:
       - "Row"
@@ -41,13 +43,10 @@ outputs:
       - "Description"
       - "manf"
       - "manf#"
-      - "Supplier 1"
-      - "Supplier Part Number 1"
 
 ...
 definitions:
-  NAME: xlsx_costs_bom
-  COMMENT: Costs Bill of Materials in XLSX format
+  NAME: xlsx_bom
+  COMMENT: Bill of Materials in XLSX format
   DIR: Manufacturing/Assembly
-  KICOST_CONFIG: kibot_yaml/kicost_config_local.yaml
   FILT_PRE_TRANSFORM: field_rename
