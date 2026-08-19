@@ -97,17 +97,21 @@ jobs:
         id: determine-version-and-args
         run: |
           last_tag=$(git describe --tags --abbrev=0 || echo "")
+
+          # Resolve active variant explicitly
           if [[ "${{ github.ref_type }}" == "tag" ]]; then
+            ACTIVE_VARIANT="RELEASED"
             version_arg="-E REVISION='${last_tag}'"
-            echo "Overriding kibot_variant to 'RELEASED' for tag"
-            echo "kibot_variant=RELEASED" >> $GITHUB_ENV
           else
+            ACTIVE_VARIANT="${{ env.kibot_variant }}"
             version_arg="-E REVISION='${last_tag}+ (Unreleased)'"
-            echo "kibot_variant=${{ env.kibot_variant }}" >> $GITHUB_ENV
           fi
 
-          # Determine additional_args based on the variant
-          case "$kibot_variant" in
+          # Set for downstream action steps
+          echo "kibot_variant=${ACTIVE_VARIANT}" >> $GITHUB_ENV
+
+          # Evaluate against the explicit local variable
+          case "$ACTIVE_VARIANT" in
             "DRAFT")
               additional_args="--skip-pre draw_fancy_stackup,erc,drc ${version_arg} draft_group"
               ;;
@@ -118,7 +122,7 @@ jobs:
               additional_args="${version_arg} all_group"
               ;;
             *)
-              echo "Unknown variant: $kibot_variant"
+              echo "Unknown variant: $ACTIVE_VARIANT"
               exit 1
               ;;
           esac
